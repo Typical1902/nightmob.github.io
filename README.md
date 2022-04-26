@@ -24,9 +24,8 @@ test
         		<li class="nav"><a href="../index.html"> Home! </a></li>
 				<li class="nav"><a href="../g_mes/g@mes.html"> G@mes! </a></li>	
 				<li class="nav"><a href="../about/about.html"> About </a></li>
-				<li class="nav"><a href="https://github.com/Cattn/msgv2"> Github </a></li>
-				<li class="nav"><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home"> Main Site </a></li>
-				<li class="nav"><a href="https://discord.gg/mathstudy"> Discord </a></li>
+				<li class="nav"><a href="nightmob.github.io> Main Site </a></li>
+				<li class="nav"><a href="https://discord.gg/ubs5kcYuNW"> Discord </a></li>
 				<li class="nav"><a onclick="getSettings()" id="setting"> Settings </a></li>
 		</ul>
 	</nav>
