@@ -78,3 +78,60 @@ test
         </script>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+let express = require("express"),
+  app = express(),
+  https = require("https"),
+  http = require("http"),
+  { response } = require("express");
+app.use("/", async (req, res) => {
+  let url = req.query.url;
+  if (!url) return res.send("Please provide a valid url");
+  console.log(url)
+  let parsedHost = url.replace(/https?:\/\//gi, "");
+  let options = {
+    hostname: parsedHost,
+    port: url.startsWith("https://") ? 443 : 80,
+    path: req.url,
+    method: req.method,
+    headers: {
+      "User-Agent": req.headers["user-agent"]
+    }
+  };
+
+  (url.startsWith("https://") ? https : http)
+    .request(options, serverResponse => {
+      let body = "";
+      if (
+        String(serverResponse.headers["content-type"]).indexOf("text/html") !==
+        -1
+      ) {
+        serverResponse.on("data", function(chunk) {
+          body += chunk;
+        });
+        serverResponse.on("end", function() {
+          body = body.replace(`example`, `Cat!`);
+          res.writeHead(serverResponse.statusCode, serverResponse.headers);
+          res.end(body);
+        });
+      } else {
+        serverResponse.pipe(
+          serverResponse,
+          {
+            end: true
+          }
+        );
+        res.contentType(serverResponse.headers["content-type"]);
+      }
+    })
+    .end();
+});
+app.listen(3000);
+console.log("Running on 0.0.0.0:3000");
