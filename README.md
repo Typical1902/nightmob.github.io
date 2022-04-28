@@ -104,12 +104,3 @@ function focus() {document.getElementById('518929564').focus();}
 
 
 
-'prefix': '/get/', // String - URL Prefix
-   'title': 'Woah Corrosion', // (Boolean / String) - Title used for HTML documents
-   'ws': true, // Boolean - WebSocket rewriting
-   'cookie': true, // Boolean - Request Cookies
-   'codec': 'base64', // String - URL encoding (base64, plain, xor).
-   'requestMiddleware': [Corrosion.middleware.address([0.0.0.0])] // Array - Array of [middleware](../README.md#middleware) functions for proxy request (Server). 
-   'responseMiddleware': [myCustomMiddleware()] // Array - Array of [middleware](../README.md#middleware) functions for proxy response (Server).
-   'standardMiddleware': true // Boolean - Use the prebuilt [middleware](../README.md#middleware) used by default (Server). 
-}
