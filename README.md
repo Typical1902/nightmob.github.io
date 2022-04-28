@@ -72,23 +72,20 @@ function focus() {document.getElementById('518929564').focus();}
 <!DOCTYPE html>
 <html>
   <head>
-
-      <title>Drift Hunters</title>
-    <link rel="shortcut icon"
-    type="image/jpg" href="drift-hunters.png"
-    />
+      <title>Retro Bowl</title>
+    <link rel="shortcut icon" type="image/jpg" href="retrobowl.png"/>
   </head>
-<body>
+<body onload='focus()'>
 <script src="load.js"></script>
-<iframe title="Include gadget (iframe)" width="960" height="640"scrolling="no" frameborder="0" id="518929564" name="518929564" allowtransparency="true" class="igm" src="https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/136734914403232081/drift_hunter.html"></iframe>
-         <a href="/"
-       style="" >Back To Home Page</a>
+         <a href="/" style='font-size: 2vw;'>Back To Home Page</a>
+         <button onclick="openFullscreen('518929564')" style='font-size: 2vw;'>Fullscreen Mode</button>      
+<iframe style='height: 95vh; width: 95vw;' scrolling="no" frameborder="0" id="518929564" allowtransparency="true" 
+        src="https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/136734914403232081/drift_hunter.html"></iframe>
 <script src="fullScreen.js"></script>
-<button onclick="openFullscreen('518929564')">Fullscreen Mode</button>
-
-
+<script>
+function focus() {document.getElementById('518929564').focus();}
+</script>
 </body>
-
 </html>
 
 
