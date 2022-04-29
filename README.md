@@ -100,6 +100,8 @@ function focus() {document.getElementById('518929564').focus();}
 
 
 
-<iframe id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads" frameborder="0" allowfullscreen="" src="https://driplife.net" style="overflow: auto;">
+<iframe id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads"
+<iframe style='height: 95vh; width: 95vw;' scrolling="no" frameborder="0" id="518929564" allowtransparency="true" 					
+frameborder="0" allowfullscreen="" src="https://driplife.net" style="overflow: auto;">
 </iframe>
 
