@@ -147,5 +147,28 @@ function focus() {document.getElementById('518929564').focus();}
 
 
 
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Retro Bowl</title>
+    <link rel="shortcut icon" type="image/jpg" href="retrobowl.png"/>
+  </head>
+<body onload='focus()'>
+<script src="load.js"></script>
+         <a href="/" style='font-size: 2vw;'>Back To Home Page</a>
+         <button onclick="openFullscreen('518929564')" style='font-size: 2vw;'>Fullscreen Mode</button>      
+<iframe style='height: 95vh; width: 95vw;' scrolling="no" frameborder="0" id="518929564" allowtransparency="true" 
+        src="https://script.google.com/a/macros/mcpsmd.net/s/AKfycbyfZplF4j-fYv-H3Pp5xV1y-E48NkQK5FpCAIEzW2QE4xm9w4hf/exec?mid=ACjPJvF1PjpZMOlRWG6Ovd3aJnfb9rugsdEHXNmzXcuMVN5hX1n39gj7iA0dDmWCf04iv2s2Vw6CFVRPUsvPmRXOuxNshKQDanjn47CAz1AB27qCGoD7g0W8l-UQy1I16dOGjVmoqknn3LgbtLjPl68&bc=transparent&f=Helvetica%2C+Arial%2C+Verdana%2C+sans-serif&tc=%23b5b5b5&lc=%23f3f2f2"></iframe>
+<script src="fullScreen.js"></script>
+<script>
+function focus() {document.getElementById('518929564').focus();}
+</script>
+</body>
+</html>
+
+
+
+
+
 
 
