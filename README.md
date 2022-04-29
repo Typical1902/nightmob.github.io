@@ -99,7 +99,6 @@ function focus() {document.getElementById('518929564').focus();}
 
 
 
-
 <iframe id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads"
 <iframe style='height: 95vh; width: 95vw;' scrolling="no" frameborder="0" id="518929564" allowtransparency="true" 					
 frameborder="0" allowfullscreen="" src="https://driplife.net" style="overflow: auto;">
@@ -113,7 +112,22 @@ frameborder="0" allowfullscreen="" src="https://driplife.net" style="overflow: a
 
 
 
-
-
-
-<iframe src="http://www.basketballing.org/" name="iFrame Name" scrolling="No" height="500px" width="100%" style="border: none;"></iframe>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Paper.io 2</title>
+    <link rel="shortcut icon" type="image/jpg" 
+    href="paperio2.png"/>
+  </head>
+<body onload='focus()'>
+<script src="load.js"></script>
+         <a href="/" style='font-size: 2vw;'>Back To Home Page</a>
+         <button onclick="openFullscreen('518929564')" style='font-size: 2vw;'>Fullscreen Mode</button>      
+<iframe style='height: 95vh; width: 95vw;' scrolling="no" frameborder="0" id="518929564" allowtransparency="true" 
+        src="zpaperio2.html"></iframe>
+<script src="fullScreen.js"></script>
+<script>
+function focus() {document.getElementById('518929564').focus();}
+</script>
+</body>
+</html>
