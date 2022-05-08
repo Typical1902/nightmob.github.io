@@ -21,7 +21,7 @@ test
    padding:20px;
 }
 </style>
-	<li class="nav"><a href="../games"> G@mes! </a></li>	
+	<li class="nav"><a href="../games">
 <button class="generated-text" type="button">Games</button>
 
 			<!-- Code by w3codegenerator.com -->
@@ -35,7 +35,7 @@ test
    padding:20px;
 }
 </style>
-    <li class="nav"><a href="https://discord.gg/ubs5kcYuNW"> Discord </a></li>
+    <li class="nav"><a href="https://discord.gg/ubs5kcYuNW">
 <button class="generated-text" type="button">Discord</button>
            
 		</ul>
